@@ -1,5 +1,15 @@
+import About from "./components/About/About";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar/Navbar";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+    </>
+  );
 };
 
 export default App;
