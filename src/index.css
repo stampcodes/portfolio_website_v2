@@ -1,3 +1,112 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: #1a1f36;
+  color: #f1f2f3;
+}
+
+.customButton {
+  background-color: #00ff9d;
+  font-weight: 800;
+  color: #1a1f36;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 15px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.customButton:hover {
+  background-color: #4b3f72;
+  color: #f1f2f3;
+}
+
+/* ----------- SCROLL BAR -------------*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1f36;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 255, 157, 0.5);
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00ff9d;
+}
+
+.bg-boiler {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.bg-hero {
+  background-image: url("./assets/imgs/bg.png");
+}
+
+.bg-about {
+  background-image: url("./assets/imgs/bg-about.png");
+}
+
+.title {
+  font-size: 60px;
+  margin-top: 20px;
+  font-weight: 700;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.paragraph {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #1a1f36;
+  font-weight: 600;
+}
+
+.tab-links {
+  margin-right: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  color: #f1f2f3;
+}
+
+.tab-links::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #00ff9d;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  border-radius: 50%;
+  transition: width 0.5s;
+}
+
+.tab-links.active-link::after {
+  width: 50%;
+}
