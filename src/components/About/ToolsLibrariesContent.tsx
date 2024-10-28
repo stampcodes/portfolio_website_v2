@@ -3,6 +3,7 @@ import hardhat from "../../assets/imgs/hardhat-logo.png";
 import viem from "../../assets/imgs/viem-logo.png";
 import vite from "../../assets/imgs/vite-logo.png";
 import wagmi from "../../assets/imgs/wagmi-logo.png";
+import reown from "../../assets/imgs/reown-logo.png";
 
 const toolsAndLibraries = [
   { name: "Hardhat", logo: hardhat, level: 75 },
@@ -10,26 +11,27 @@ const toolsAndLibraries = [
   { name: "Wagmi", logo: wagmi, level: 80 },
   { name: "Viem", logo: viem, level: 65 },
   { name: "Vite", logo: vite, level: 90 },
+  { name: "Reown", logo: reown, level: 80 },
 ];
 
 const ToolsLibrariesContent = () => {
   return (
-    <div className="bg-[#a5aabf] text-[#1a1f36] p-10 max-w-md ml-[100px] rounded-lg shadow-lg">
-      <h2 className="text-3xl font-semibold mb-8">Tools and Libraries</h2>
-      <div className="space-y-6">
+    <div className="bg-[#a5aabf] text-[#1a1f36] p-6 max-w-sm ml-[80px] rounded-lg shadow-lg">
+      <h2 className="text-2xl font-semibold mb-4">Tools and Libraries</h2>
+      <div className="space-y-4">
         {toolsAndLibraries.map((tool, index) => (
-          <div key={index} className="flex flex-col mb-4">
-            <div className="flex items-center space-x-4 mb-2">
+          <div key={index} className="flex flex-col mb-3">
+            <div className="flex items-center space-x-3 mb-1">
               <img
                 src={tool.logo}
                 alt={tool.name}
-                className="w-8 h-8 rounded-md"
+                className="w-6 h-6 rounded-md"
               />
-              <span className="font-semibold text-lg">{tool.name}</span>
+              <span className="font-semibold text-md">{tool.name}</span>
             </div>
-            <div className="w-full bg-[#4b3f72] rounded-full h-4">
+            <div className="w-full bg-[#4b3f72] rounded-full h-3">
               <div
-                className="bg-[#00ff9d] h-4 rounded-full transition-width duration-500"
+                className="bg-[#00ff9d] h-3 rounded-full transition-width duration-500"
                 style={{ width: `${tool.level}%` }}
               ></div>
             </div>
