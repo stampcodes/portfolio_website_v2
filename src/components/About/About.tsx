@@ -7,7 +7,7 @@ const About = () => {
   const [activeTab, setActiveTab] = useState("Overview");
 
   return (
-    <div className="w-full h-screen bg-about bg-boiler">
+    <div className=" bg-about bg-boiler">
       <h2 className="title">About me</h2>
       <div className="flex items-center justify-around space-x-8 ml-[100px] mt-10 max-w-[700px] ">
         <button
