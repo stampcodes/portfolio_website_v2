@@ -1,9 +1,9 @@
-import ethers from "../../assets/imgs/ethers-logo.png";
-import hardhat from "../../assets/imgs/hardhat-logo.png";
-import viem from "../../assets/imgs/viem-logo.png";
-import vite from "../../assets/imgs/vite-logo.png";
-import wagmi from "../../assets/imgs/wagmi-logo.png";
-import reown from "../../assets/imgs/reown-logo.png";
+import ethers from "../../assets/imgs/logo/ethers-logo.png";
+import hardhat from "../../assets/imgs/logo/hardhat-logo.png";
+import viem from "../../assets/imgs/logo/viem-logo.png";
+import vite from "../../assets/imgs/logo/vite-logo.png";
+import wagmi from "../../assets/imgs/logo/wagmi-logo.png";
+import reown from "../../assets/imgs/logo/reown-logo.png";
 
 const toolsAndLibraries = [
   { name: "Hardhat", logo: hardhat, level: 75 },

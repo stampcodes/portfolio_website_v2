@@ -1,9 +1,9 @@
-import html from "../../assets/imgs/html-logo.png";
-import js from "../../assets/imgs/js-logo.png";
-import css from "../../assets/imgs/css-logo.png";
-import ts from "../../assets/imgs/ts-logo.png";
-import solidity from "../../assets/imgs/solidity-logo.png";
-import react from "../../assets/imgs/react-logo.png";
+import html from "../../assets/imgs/logo/html-logo.png";
+import js from "../../assets/imgs/logo/js-logo.png";
+import css from "../../assets/imgs/logo/css-logo.png";
+import ts from "../../assets/imgs/logo/ts-logo.png";
+import solidity from "../../assets/imgs/logo/solidity-logo.png";
+import react from "../../assets/imgs/logo/react-logo.png";
 
 const skills = [
   { name: "HTML", logo: html, level: 87 },
