@@ -74,6 +74,9 @@ body {
   background-image: url("./assets/imgs/bg/bg-work.png");
 }
 
+.bg-contact {
+  background-image: url("./assets/imgs/bg/bg-contact.png");
+}
 .title {
   font-size: 60px;
   font-weight: 700;

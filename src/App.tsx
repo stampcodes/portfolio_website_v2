@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About/About";
 import Work from "./components/Work/Work";
+import ContactForm from "./components/Contact/ContactForm";
 
 const App: React.FC = () => {
   useEffect(() => {
@@ -30,6 +31,9 @@ const App: React.FC = () => {
         </div>
         <div className="section">
           <Work />
+        </div>
+        <div className="section">
+          <ContactForm />
         </div>
       </div>
     </>
