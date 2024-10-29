@@ -11,7 +11,7 @@ const App: React.FC = () => {
   useEffect(() => {
     ($ as any).scrollify({
       section: ".section",
-      scrollSpeed: 1600,
+      scrollSpeed: 1800,
       offset: 0,
       scrollbars: false,
       setHeights: true,
