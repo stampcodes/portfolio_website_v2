@@ -9,14 +9,24 @@ import ContactForm from "./components/Contact/ContactForm";
 
 const App: React.FC = () => {
   useEffect(() => {
-    ($ as any).scrollify({
-      section: ".section",
-      scrollSpeed: 1800,
-      offset: 0,
-      scrollbars: false,
-      setHeights: true,
-      updateHash: true,
-    });
+    const isMobile = window.innerWidth <= 1024;
+
+    if (!isMobile) {
+      ($ as any).scrollify({
+        section: ".section",
+        scrollSpeed: 1800,
+        offset: 0,
+        scrollbars: false,
+        setHeights: true,
+        updateHash: true,
+      });
+    }
+
+    return () => {
+      if (!isMobile) {
+        ($ as any).scrollify.destroy();
+      }
+    };
   }, []);
 
   return (

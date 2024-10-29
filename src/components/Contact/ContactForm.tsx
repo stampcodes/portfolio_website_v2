@@ -69,11 +69,13 @@ const ContactForm: React.FC = () => {
 
   return (
     <>
-      <div className="bg-contact bg-boiler ">
-        <h2 className="title">Contact Me</h2>
+      <div className="bg-[url('./assets/imgs/bg/bg-mobile.png')] lg:bg-[url('./assets/imgs/bg/bg-contact.png')] bg-boiler flex flex-col items-center">
+        <h2 className="text-4xl sm:text-3xl md:text-5xl lg:text-6xl font-bold pt-[150px]">
+          Contact Me
+        </h2>
         <form
           onSubmit={handleSubmit}
-          className="flex flex-col gap-4 max-w-md mx-auto bg-[#a5aabf] p-6 rounded-lg mt-10 shadow-xl shadow-black/50"
+          className="flex flex-col gap-4 max-w-md min-w-[350px] mx-auto bg-[#a5aabf] p-6 rounded-lg mt-[70px] shadow-xl shadow-black/50 "
         >
           <TextInput
             name="name"

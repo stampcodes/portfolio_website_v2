@@ -63,10 +63,6 @@ body {
   position: relative;
 }
 
-.bg-hero {
-  background-image: url("./assets/imgs/bg/bg.png");
-}
-
 .bg-about {
   background-image: url("./assets/imgs/bg/bg-about.png");
 }
@@ -77,12 +73,6 @@ body {
 .bg-contact {
   background-image: url("./assets/imgs/bg/bg-contact.png");
 }
-.title {
-  font-size: 60px;
-  font-weight: 700;
-  padding-left: 100px;
-  padding-top: 100px;
-}
 
 .paragraph {
   font-size: 18px;
@@ -91,7 +81,7 @@ body {
 }
 
 .tab-links {
-  margin-right: 50px;
+  padding: 50px 0px 10px 0px;
   font-size: 20px;
   font-weight: 600;
   cursor: pointer;
@@ -106,7 +96,7 @@ body {
   background: #00ff9d;
   position: absolute;
   left: 0;
-  bottom: -8px;
+  bottom: -1px;
   border-radius: 50%;
   transition: width 0.5s;
 }
@@ -124,16 +114,4 @@ body {
 .card:hover {
   transform: scale(1.05);
   background: rgba(0, 0, 0, 0.9);
-}
-.card-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.9);
-  color: white;
-  opacity: 0;
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  padding: 1rem;
-  transition: opacity 0.3s ease;
 }

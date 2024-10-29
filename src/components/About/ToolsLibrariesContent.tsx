@@ -16,7 +16,7 @@ const toolsAndLibraries = [
 
 const ToolsLibrariesContent = () => {
   return (
-    <div className="bg-[#a5aabf] text-[#1a1f36] p-6 max-w-sm ml-[80px] rounded-lg shadow-lg">
+    <div className="bg-[#a5aabf] text-[#1a1f36] p-6 max-w-3xl rounded-lg shadow-lg mt-6">
       <h2 className="text-2xl font-semibold mb-4">Tools and Libraries</h2>
       <div className="space-y-4">
         {toolsAndLibraries.map((tool, index) => (
