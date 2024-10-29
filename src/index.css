@@ -59,19 +59,8 @@ body {
   min-height: 100vh;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   position: relative;
-}
-
-.bg-about {
-  background-image: url("./assets/imgs/bg/bg-about.png");
-}
-.bg-work {
-  background-image: url("./assets/imgs/bg/bg-work.png");
-}
-
-.bg-contact {
-  background-image: url("./assets/imgs/bg/bg-contact.png");
 }
 
 .paragraph {
