@@ -8,7 +8,7 @@ const Work: React.FC = () => {
       <h2 className="text-4xl sm:text-3xl md:text-5xl lg:text-6xl font-bold pt-[150px]">
         My Work
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto mt-[70px]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto mt-[30px]">
         {cardsData.map((card, index) => (
           <div key={index} className="flex justify-center">
             <Card {...card} />

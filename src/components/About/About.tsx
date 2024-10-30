@@ -11,7 +11,7 @@ const About = () => {
       <h2 className="text-4xl sm:text-3xl md:text-5xl lg:text-6xl font-bold pt-[150px]">
         About me
       </h2>
-      <div className="flex flex-col sm:flex-col lg:flex-row items-center justify-center lg:space-x-[100px] w-full max-w-[700px] mt-[20px] ">
+      <div className="flex flex-col sm:flex-col lg:flex-row items-center justify-center lg:space-x-[100px] w-full max-w-[700px] ">
         <button
           className={`tab-links ${
             activeTab === "Overview" ? "active-link" : ""
