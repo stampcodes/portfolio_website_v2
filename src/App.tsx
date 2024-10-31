@@ -14,7 +14,7 @@ const App: React.FC = () => {
     if (!isMobile) {
       ($ as any).scrollify({
         section: ".section",
-        scrollSpeed: 1100,
+        scrollSpeed: 1300,
         offset: 0,
         scrollbars: false,
         setHeights: true,
