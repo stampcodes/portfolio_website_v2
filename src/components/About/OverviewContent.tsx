@@ -3,7 +3,7 @@ const OverviewContent = () => {
     <div className="bg-[#a5aabf] text-[#1a1f36] p-6 max-w-3xl rounded-lg shadow-lg mt-6">
       <div className="paragraph mb-2">
         <h3 className="font-semibold mb-1 text-lg">
-          🌍 Blockchain & Web Developer Junior
+          🌍 Blockchain & Web Developer
         </h3>
         <p className="text-sm">
           Driven by a passion for technology and innovation, I am eager to
@@ -30,8 +30,7 @@ const OverviewContent = () => {
         <h3 className="font-semibold mb-1 text-lg">💡 Goal</h3>
         <p className="text-sm">
           My goal is to become an impactful Blockchain & Web Developer, adding
-          value to innovative projects in the field of decentralized
-          technologies.
+          value to innovative projects in blockchain and advanced technologies.
         </p>
       </div>
     </div>
